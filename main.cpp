@@ -17,7 +17,7 @@ int main(){
 		while(true){
 			q.nowPlaying(playingTime);
 			cout << "1. Tambah Playlist\n"
-		 	 	 << "2. Keluar";
+		 	     << "2. Keluar";
 			if(kbhit()){
 				pilih = getch();
 				switch(pilih){
